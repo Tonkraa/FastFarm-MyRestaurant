@@ -1,4 +1,3 @@
-
 wait(1)
 local CoreGui = game:GetService("StarterGui")
 
@@ -43,7 +42,7 @@ _G.Settings = {
     ["Low Rendering"] = true, -- Lower Rendering
     ["Low Quality Parts"] = true -- Lower quality parts
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Tonkraa/FpsBooters/main/game"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tonkraa/FpsBooters/main/script"))()
 
 -- Start
 local fpsBoost = fpsBoost or false
